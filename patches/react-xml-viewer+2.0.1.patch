@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-xml-viewer/dist/index.es.js b/node_modules/react-xml-viewer/dist/index.es.js
+index 5325499..284b975 100644
+--- a/node_modules/react-xml-viewer/dist/index.es.js
++++ b/node_modules/react-xml-viewer/dist/index.es.js
+@@ -2086,7 +2086,7 @@ Oe.exports;
+ var dt = Oe.exports, zl = 9007199254740991, Jl = /^(?:0|[1-9]\d*)$/;
+ function Zl(e, t) {
+   var r = typeof e;
+-  return t = t ?? zl, !!t && (r == "number" || r != "symbol" && Jl.test(e)) && e > -1 && e % 1 == 0 && e < t;
++  // return t = t ?? zl, !!t && (r == "number" || r != "symbol" && Jl.test(e)) && e > -1 && e % 1 == 0 && e < t;
+ }
+ var Ql = Zl, Dl = 9007199254740991;
+ function ec(e) {

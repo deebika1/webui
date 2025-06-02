@@ -1,0 +1,967 @@
+{
+    "saveViewSucess": "View Saved Successfully",
+    "saveViewError": "View Save Failed",
+    "deleteViewSuccess": "View Deleted Successfully",
+    "deleteViewError": "View Delete Failed",
+    "deleteViewAlert": "Are you sure you want to delete the View?",
+    "updateAppConfigSuccess": "Data Updated Sucessfully",
+    "updateAppConfigFailure": "Data Update Failed",
+    "claimTaskSuccess": "Task has been claimed successfully",
+    "claimTaskFailure": "Task Claim Failed",
+    "claimTaskExist": "Task Claim Failed",
+    "updatePrioritySuccess": "Priority has been updated successfully",
+    "updatePriorityFailure": "Priority Update Failed",
+    "assignedTaskError": "Selected Task is already assigned to this user",
+    "assignTaskSuccess": "Task has been assigned successfully",
+    "assignTaskFailure": "Task assign Failed",
+    "rejectTaskSuccess": "Task has been rejected successfully",
+    "rejectTaskFailure": "Task reject Failed",
+    "nextAlert": "Are you sure to move Next?",
+    "previousAlert": "Are you sure to move Previous?",
+    "updPackage": "Updated order XML received on ",
+    "updateMetaXML": "Updated Metadata XML received on ",
+    "auth": {
+        "userNotExist": "User is not active/exist. Please contact the Application Support team for further assistance",
+        "InvalidProfile": "User Profile has changed",
+        "InvalidCredentials": "Invalid Credentials",
+        "UserNamePwdMissing": "Credentials Required",
+        "SessionAvailable": "Already user session available."
+    },
+    "clientUtility": {
+        "openFile": "File's will be opened shortly",
+        "openFileFailure": "Opening File operation failed",
+        "openExplorer": "File explorer will be opened shortly",
+        "openExporerFailure": "Opening File explorer operation failed",
+        "syncFile": "Local Files Synchronized Successfully",
+        "syncFileFailure": "Syncing Local files failed",
+        "clearFile": "Local File Cleared Successfully",
+        "syncToolFile": "Files (Tool) Synchronized Successfully",
+        "clearFileFailure": "Clearing Local files failed",
+        "fileBackup": "File restored successfully"
+    },
+    "workOrder": {
+        "WOCreateSuccess": "Work Order created Successfully!",
+        "WOCreateFailure": "Work Order Create Failed",
+        "WOUpdateSuccess": "Work Order updated Sucessfully!",
+        "WOUpdateFailure": "Work Order Update Failed",
+        "list": {
+            "saveView": {
+                "formField": {
+                    "pattern": "",
+                    "maxLength": 50
+                },
+                "notification": {
+                    "createSucess": "",
+                    "createError": ""
+                }
+            }
+        },
+        "contactInfo": {
+            "sucess": "Contact Details Added!",
+            "failure": "",
+            "resetSucess": "Contact Info Reset Successfully!",
+            "resetError": "",
+            "resetAlert": "All changes made in Contact Info will be discarded, are you sure to Reset?"
+        },
+        "additionalInfo": {
+            "resetSucess": "Additional Info Reset Successfully!",
+            "resetError": "",
+            "resetAlert": "All changes made in Additional Info will be discarded, are you sure to Reset?"
+        },
+        "jobInfo": {
+            "sucess": "JobInfo Details Added!",
+            "failure": "",
+            "resetSucess": "Job Info Reset Successfully!",
+            "resetError": "",
+            "resetAlert": "All changes made in Job Info will be discarded, are you sure to Reset?",
+            "emailAttachment": {
+                "Success": "File Uplodaded Successfully",
+                "Error": "",
+                "AttachmentExist": "Attachement Already Exist",
+                "Alert": "File allowed only msg,eml format"
+            },
+            "authorRequired": "",
+            "authorExceed": "Author should not be assigned more than one"
+        },
+        "printInfo": {
+            "sucess": "Print Info Added!",
+            "failure": "",
+            "resetSucess": "Print Info Reset Successfully!",
+            "resetError": "",
+            "resetAlert": "All changes made in Print Info will be discarded, are you sure to Reset?",
+            "noOfArticleError": "No. of articles can't be less than the No. of articles already added",
+            "noOfNonArticleError": "No. of non-articles can't be less than the No. of non-articles already added"
+        },
+        "services": {
+            "success": "All changes saved!",
+            "failure": "",
+            "removeSuccess": "Are you sure to remove this service?",
+            "removeError": "",
+            "saveSuccess": "All changes made in services section saved!",
+            "saveError": "",
+            "updateServiceAlert": "Please fill the all details",
+            "createServiceSuccess": "Service Created Successfully",
+            "createServiceFailed": "Service Create Failed",
+            "updateServiceSuccess": "Service Updated Successfully",
+            "updateServiceFailed": "Service Update Failed",
+            "resetAlert": "All changes made in service details will be discarded,are you sure to Reset?",
+            "serviceEditFailure": "You can't edit after the workorder completed",
+            "create": {
+                "success": "",
+                "failure": "",
+                "requiredAlert": "Please fill all the mandatory fields",
+                "nextAlert": "Please save before going to next tab"
+            },
+            "delete": {
+                "success": "Service deleted successfully",
+                "failure": "Failed service delete",
+                "alert": "Are you sure want to delete a service?",
+                "atleastAlert": "Service cannot be deleted, atleast one service is mandatory"
+            }
+        },
+        "stageDetails": {
+            "success": "All changes made in Stages section saved!",
+            "failure": "",
+            "stageTriggerSuccess": "Next stage initiated/iterated successfully",
+            "stageTriggerFailure": "Next stage initiated/iterated failed",
+            "stageCompleteSuccess": "Stage Completed successfully",
+            "stageCompleteFailure": "Stage Completion Failed",
+            "stageFileUploadSuccess": "File Uploaded Successfully",
+            "stageFileUploadFailure": "File Upload Failed",
+            "stageDetailsAlert": "Please fill all the mandatory fields",
+            "detailsAlert": "Please fill all the mandatory fields",
+            "stageUpdateSuccess": "Stage Updated Successfully",
+            "stageUpdateFailure": "Stage Update Failed",
+            "resetAlert": "All changes made in stage details will be discarded,are you sure to Reset?",
+            "receivedDateAlert": "Planned Start date should not be less than Received Date",
+            "startDateAlert": " Planned End date should not be less than Planned Start date",
+            "saveAlert": "Stage Details should be saved before move to Next",
+            "stageEditFailure": "You can't edit after the stage completed",
+            "fileUpload": {
+                "Success": "Confirmation Mail File Uploaded Successfully",
+                "Failure": "Mail File Upload Failed",
+                "Alert": "File allowed only msg,eml format"
+            },
+            "multiInstanceSuccess": "File Added Successfully",
+            "multiInstanceFailed": "Please Check and Add File."
+        },
+        "jobnorms": {
+            "mandatoryAlert": "Please add the Job norms details",
+            "create": {
+                "success": "Job norms mapping added successfully",
+                "failure": "",
+                "requiredAlert": "Please fill all the mandatory fields"
+            },
+            "update": {
+                "success": "Job norms mapping updated successfully",
+                "failure": "",
+                "requiredAlert": "Please fill all the mandatory fields"
+            },
+            "delete": {
+                "success": "Job norms mapping deleted successfully",
+                "failure": "Failed Job norms delete",
+                "alert": "Are you sure want to delete a Job norms mapping?"
+            }
+        },
+        "incoming": {
+            "success": "Incoming Inspection complete for uploaded files",
+            "failure": "",
+            "addSuccess": "Files added for incoming!",
+            "addError": "",
+            "removeSuccess": "Are you sure to remove this file?",
+            "removeError": "",
+            "saveAllSuccess": "All changes saved!",
+            "saveAllError": "",
+            "emailSuccess": "File uploaded Successfully!",
+            "emailError": "",
+            "uploadReportFailure": "Report upload Failed",
+            "uploadFileFailure": "File upload Failed",
+            "chapterCreateSuccess": "Chapter has been created successfully",
+            "chapterUpdateSuccess": "Chapter has been updated successfully",
+            "chapterCreateFailure": "Chapter Create Failed",
+            "chapterUpdateFailure": "Chapter Update Failed",
+            "deleteChapterSuccess": "Chapter Deleted Successfully",
+            "deleteChapterFailure": "Chapter Delete Failed",
+            "deleteChapterAlert": "You can't delete the file after incoming completion",
+            "updateWoReportSuccess": "Report Updated Successfully",
+            "updateWoReportFailure": "Report Update Failed",
+            "filesCountExceedsValidationError": "Upload file count shouldn't greater than No.Of Chapters",
+            "filesCountSubceedsValidationError": "Upload file count shouldn't  be less than end chapter",
+            "filesCountEndChapterValidationError": "Upload file count shouldn't  be greater than end chapter",
+            "filetypeIdValidation": "Please select the type",
+            "fileNameValidation": "Please enter the chapter name",
+            "fileNameSuffixValidation": "Please enter the suffix name",
+            "fileDueDateValidation": "Please chose the duedate",
+            "fileAttachValidation": "Please upload the file",
+            "updateValidation": "Please fill all the mandatory fields",
+            "checkFileExistsValidation": "File name already exists: ",
+            "resetAlert": "All changes made in incoming details will be discarded,are you sure to Reset?",
+            "inspectionsReport": {
+                "Success": "",
+                "Failure": "",
+                "Alert": "File allowed only xlsx format"
+            },
+            "nextFailure": "Without Add Files We Can't move Next",
+            "templateadded": "Template Added successfully",
+            "templatefailure": "Template Name is already exist",
+            "mandatoryupload": "Please upload all mandatory files"
+        },
+        "incomingInspection": {
+            "success": "Incoming Inspection complete for uploaded files",
+            "failure": "",
+            "addSuccess": "Job Norms Added!",
+            "addError": "",
+            "removeAlert": "Are you sure to remove this job norms?",
+            "removeSuccess": "Job Norms removed!",
+            "removeError": "",
+            "emailSuccess": "File uploaded Successfully!",
+            "emailError": "",
+            "cancelSuccess": "All details entered will be cleared, are you sure to cancel? ",
+            "cancelError": ""
+        },
+        "graphicArtCut": {
+            "fileUploadSuccess": "File Uploaded Successfully",
+            "fileUploadFailure": "File Upload Failed",
+            "filenameValidation": "File name should be same!",
+            "fileFormatValidation": "Please upload xlsx files only!",
+            "fileSaveValidation": "Please upload the File to save the changes",
+            "editFailure": "You can't edit the completed workorder graphicart"
+        },
+        "workorderInstructions": {
+            "fileUpload": "File Uploaded successfully!",
+            "fileDelete": "File Deleted successfully!",
+            "woiadded": "Work Order Instruction added",
+            "fileFormatValidation": "Please upload the supported format!",
+            "fileSizeValidation": "size exceeds the limit of 15MB",
+            "fileNameValidation": " Already Exists",
+            "saveValidation": "Please enter the mandatory fields",
+            "savefileValidation": "Please upload or add instruction text",
+            "maximumFiles": "Maximum 20 files only can be uploaded",
+            "editFailure": "You can't edit the completed workorder instructions",
+            "instructionsinTaskPage": "No special instruction available"
+        },
+        "resetModule": {
+            "reset": {
+                "success": "Reset successfully",
+                "failure": "Failed reset",
+                "alert": "Are you sure want to reset the activity?"
+            }
+        },
+        "newFileType": {
+            "save": {
+                "success": "New File type added successfully"
+            }
+        },
+        "task": {
+            "assignment": {
+                "assign": "Task Assigned!",
+                "reAssign": "Task Reassigned!",
+                "saveView": "View Saved!",
+                "assignValidation": "Cannot assign Task(s) since one or more Task(s) is already Assigned "
+            },
+            "Query": {
+                "Open": "Query for this job is still open. Please close the query"
+            },
+            "allTask": {
+                "claimSuccess": "Task Claimed!",
+                "calimError": "",
+                "selectActivityAlert": "Please select the same activity"
+            },
+            "viewInformation": {
+                "save": {
+                    "saveAlert": "Are you sure you want to save this file and complete this task?",
+                    "Success": "File saved and UOM recorded!",
+                    "Failure": "",
+                    "despatch": {
+                        "desptachAlert": "Please ensure all the required files are downloaded and verified before delivered to customer"
+                    }
+                },
+                "pending": {
+                    "pageCountExceedAlert": "The page count should not be the same as or exceed the total number of pages.",
+                    "wordCountExceedAlert": "The word count should not be the same as or exceed the total number of words.",
+                    "pageCountSelectAlert": "Please choose the number of pages completed.",
+                    "pageCountReachedAlert": "You have Reached total count of pages for this Article - Please proceed with Save option.",
+                    "pageCountNotCapturedAlert": "Error in capturing page count.",
+                    "pendigAlert": "Are you sure you want to pending this file?",
+                    "Success": "File marked as Pending and Partial UOM saved!",
+                    "Failure": "",
+                    "uomFileNotMappedAlert": "Make sure you have mapped the UOM file before pending the file"
+                },
+                "hold": {
+                    "holdAlert": "Are you sure you want to hold this file?",
+                    "Success": "File marked On Hold and partial UOM saved!",
+                    "Failure": "",
+                    "despatch": {
+                        "Success": "File Put On Hold Successfully",
+                        "Failure": ""
+                    }
+                },
+                "reject": {
+                    "rejectAlert": "Are you sure you want to reject this file?",
+                    "Success": "Defects recorded and file rejected!",
+                    "Failure": ""
+                },
+                "cancel": {
+                    "Success": "All changes discarded!",
+                    "Failure": "",
+                    "cancelAlert": "Are you sure you want to cancel all changes made?",
+                    "cancelValidationError": "You have saved files to server. Either click Save or Pending or Hold"
+                },
+                "reset": {
+                    "Success": " is reset successfully to activity ",
+                    "Failure": "",
+                    "resetAlert": "Are you sure you want to reset all changes made?"
+                },
+                "filesUpload": {
+                    "fileValidation": " is not a required file",
+                    "fileExistValidation": " already exists in repository"
+                },
+                "saveFileOrderingSuccess": "File Ordering changes saved!",
+                "saveFileOrderingError": "",
+                "saveFileOrderingAlert": "Are you sure you want to save changes to the file ordering?",
+                "cancelFileOrderingSuccess": "Changes discarded!",
+                "cancelFileOrderingError": ""
+            },
+            "composing": {
+                "openFileSuccess": "All files will be opened shortly",
+                "openFileFailure": "Failed to open selected files",
+                "syncFileSuccess": "Synced Files and processing begins",
+                "syncFileFailure": "Failed to sync files",
+                "fileSequenceAlert": "Moving is not allowed",
+                "reorderingFileAlert": "'Drop is not allowed",
+                "fileCheckoutAlert": "File not Checkout Please check out it",
+                "fileSelectAlert": "Please select the file",
+                "fileNameError": "File Name not matched Please select same file name",
+                "documentCheckinSuccess": "Document checkin successfully",
+                "documentCheckinFailure": "Document checkin failed",
+                "documentDowmloadSuccess": "Document download with checkout successfully",
+                "downloadSuccess": "Document downloaded successfully",
+                "associateFileSoftwareAlert": "Multiple file is associated with this software",
+                "multiFileSelectAlert": "Selected chapter/file is not associated with this software",
+                "singleFileSelectAlert": "Please select a single chapter/file",
+                "uomAlert": "Please contact your TL",
+                "updateUomValueAlert": "Your Updated UOM values is Exceeding than the Total No Of Pages , So Please Contact Your TL For Save the Task And the file name is ",
+                "pageRetrieveAlert": "Could not retrieve the page details. Please check if the uploaded PDF file is corrupt. If the issue still persist, contact the Administrator",
+                "taskCompleteSuccess": "Task has been Completed Successfully",
+                "taskCompleteFailure": "Task Completion Failed",
+                "taskCompleteError": "Invalid task please contact TL",
+                "fileReorderFailure": "FileRreorder Failed",
+                "updateFileSequenceFailure": "Need to update the file sequence",
+                "updateFileSequenceSuccess": "File Sequence updated successfully",
+                "fileNameSaveValidation": "Name Already Exists",
+                "fileTypeSaveValidation": "File Type Already Exists",
+                "fileUpdateValidation": "Please check all the field data clearly.",
+                "checkinValidation": "Please check in all the files",
+                "defectDelete": {
+                    "deleteAlert": "Are you sure you want to delete the Defect Data?",
+                    "deleteSuccess": "Defect Row deleted successfully"
+                },
+                "updateCamundaStageInfo": "Error in updating Camunda Payload"
+            }
+        },
+        "bpmmUploadFile": {
+            "uploadSuccess": "BPMN Parsed Successfully",
+            "uploadFailure": "Need to provide support for this format",
+            "uploadAlert": "Drop BPMN file",
+            "wfNameMissingAlert": "Workflow name is missing",
+            "bpmnSaveSuccess": "BPMN Saved successfully !",
+            "bpmnSaveFailure": "BPMN Save Failed"
+        }
+    },
+    "templateUploader": {
+        "templateStatusSuccess": "Status Updated Successfully",
+        "templateStatusFailure": "Status Update Failed",
+        "templateUploadSuccess": "Template Uploaded Successfully",
+        "templateUploadFailure": "Template Upload Failed",
+        "templateDeleteSuccess": "Template Deleted Successfully",
+        "templateDeleteFailure": "Template Delete Failed",
+        "templateUploadAlert": "Template Already Exist",
+        "templateDeleteAlert": "Are you sure you want to delete the Template?"
+    },
+    "master": {
+        "activity": {
+            "createActivitySuccess": "Activity  Created Successfully",
+            "createActivityFailure": "Activity Create Failed",
+            "updateActivitySuccess": "Activity  Updated Successfully",
+            "updateActivityFailure": "Activity Update Failed",
+            "deleteActivitySuccess": "Activity Deleted Successfully",
+            "deleteActivityFailure": "Activity Delete Failed",
+            "deleteActivityAlert": "Are you sure you want to delete the Activity?"
+        },
+        "color": {
+            "createColourSuccess": "Color  Created Successfully",
+            "createColourFailure": "Color Create Failed",
+            "updateColourSuccess": "Color  Updated Successfully",
+            "updateColourFailure": "Color Update Failed",
+            "deleteColourSuccess": "Color Deleted Successfully",
+            "deleteColourFailure": "Color Delete Failed",
+            "deleteColourAlert": "Are you sure you want to delete the Color?"
+        },
+        "division": {
+            "createDivisionSuccess": "Division  Created Successfully",
+            "createDivisionFailure": "Division Create Failed",
+            "updateDivisionSuccess": "Division  Updated Successfully",
+            "updateDivisionFailure": "Division Update Failed",
+            "deleteDivisionSuccess": "Division Deleted Successfully",
+            "deleteDivisionFailure": "Division Delete Failed",
+            "deleteDivisionAlert": "Are you sure you want to delete the Division?"
+        },
+        "location": {
+            "createLocationSuccess": "Location  Created Successfully",
+            "createLocationFailure": "Location Create Failed",
+            "updateLocationSuccess": "Location  Updated Successfully",
+            "updateLocationFailure": "Location Update Failed",
+            "deleteLocationSuccess": "Location Deleted Successfully",
+            "deleteLocationFailure": "Location Delete Failed",
+            "deleteLocationAlert": "Are you sure you want to delete the Location?"
+        },
+        "software": {
+            "createSoftwareSuccess": "Software  Created Successfully",
+            "createSoftwareFailure": "Software Create Failed",
+            "updateSoftwareSuccess": "Software  Updated Successfully",
+            "updateSoftwareFailure": "Software Update Failed",
+            "deleteSoftwareSuccess": "Software Deleted Successfully",
+            "deleteSoftwareFailure": "Software Delete Failed",
+            "deleteSoftwareAlert": "Are you sure you want to delete the Software?"
+        },
+        "stage": {
+            "createStageSuccess": "Stage  Created Successfully",
+            "createStageFailure": "Stage Create Failed",
+            "updateStageSuccess": "Stage  Updated Successfully",
+            "updateStageFailure": "Stage Update Failed",
+            "deleteStageSuccess": "Stage Deleted Successfully",
+            "deleteStageFailure": "Stage Delete Failed",
+            "deleteStageAlert": "Are you sure you want to delete the Stage?"
+        },
+        "subdivision": {
+            "createSubdivisionSuccess": "Subdivision  Created Successfully",
+            "createSubdivisionFailure": "Subdivision Create Failed",
+            "updateSubdivisionSuccess": "Subdivision  Updated Successfully",
+            "updateSubdivisionFailure": "Subdivision Update Failed",
+            "deleteSubdivisionSuccess": "Subdivision Deleted Successfully",
+            "deleteSubdivisionFailure": "Subdivision Delete Failed",
+            "deleteSubdivisionAlert": "Are you sure you want to delete the Subdivision?"
+        },
+        "userList": {
+            "deleteUserAlert": "User Created Successfully",
+            "userUpdateError": "User Information Details update failed",
+            "statusValidation": "Please Select the Active or Inactive Status",
+            "skill": {
+                "deleteSkillSuccess": "Skill Deleted Successfully",
+                "deleteSkillFailure": "Color Delete Failed",
+                "userListDeleteAlertSkill": "Are you sure you want to delete the Skill ?",
+                "exceedsRowSkill": "No more Skill is available to Add",
+                "skillUpdateFailure": "Skill Update Failed",
+                "skillValidation": "Please Select the Skill",
+                "skillLengthValidation": "User should atleast have one Skill",
+                "skillTaskAssignValidation": "User has tasks mapped for this skill.."
+            },
+            "role": {
+                "deleteRoleSuccess": "Role Deleted Successfully",
+                "deleteRoleFailure": "Color Delete Failed",
+                "userListDeleteAlertRole": "Are you sure you want to delete the Role ?",
+                "exceedsRowRole": "No more Roles is available to Add",
+                "roleUpdateFailure": "Role Update Failed",
+                "roleValidation": "Please Select the Role",
+                "roleLengthValidation": "User should atleast have one Role ",
+                "roleTaskAssignValidation": "User has tasks mapped for this role.."
+            }
+        },
+        "checklist": {
+            "alert": {
+                "deleteInstruction": "Are you sure want to delete this instructions ?"
+            },
+            "success": {
+                "createSuccess": "Checklist added successfully"
+            },
+            "instruction": {
+                "deleteSuccess": "Instruction deleted successfully"
+            },
+            "checklistInstruction": {
+                "updateSuccess": "Checklist updated successfully",
+                "genericSkillAvailable": "No generic checklist for this skill",
+                "mandatory": "Please fill all the mandatory fields",
+                "avaliableSkill": "Instruction is already add for this skill"
+            },
+            "list": {
+                "deleteInstruction": "Are you sure want to delete this checklist ?",
+                "alertDeleteSuccess": "Checklist deleted successfully ",
+                "alertDeleteFailure": "Checklist delete failed"
+            }
+        },
+        "iNlpConfig": {
+            "langVarCreateSuccess": "Data saved successfully!",
+            "langVarCreateError": "Failed to save data.",
+            "updateVarCreateSuccess": "Updated data saved successfully!",
+            "updateVarCreateError": "Failed to Update data"
+        },
+        "iNlpMaster": {
+            "NlpMasterCreateSuccess": "Data saved successfully!",
+            "NlpMasterCreateError": "Failed to save data.",
+            "updateNlpMasterCreateSuccess": "Updated data saved successfully!",
+            "updateNlpMasterCreateError": "Failed to Update data"
+        }
+    },
+    "uomMaster": {
+        "updateUomValueSuccess": "UOM Value Updated Successfully",
+        "updateUomValueFailure": "UOM Value Update Failed",
+        "uomValueValidation": "UOM value should not be null"
+    },
+    "journalMaster": {
+        "instruction": {
+            "deleteAlert": "Are you sure want to delete Instruction ?",
+            "deleteSuccess": "Instruction Deleted Successfully",
+            "journalInsterted": "Journal Created Successfully",
+            "journalUpdated": "Jounal Updated Successfully",
+            "journalUpdatedFailure": "Jounal update Failed"
+        },
+        "production": {
+            "deleteAlert": "Are you sure want to delete ? ",
+            "deleteSuccess": "Production row deleted successfully"
+        },
+        "tat": {
+            "deleteAlert": "Are you sure want to delete ? ",
+            "deleteSuccess": "TAT row deleted successfully"
+        }
+    },
+    "networkFailure": "Seems to be network issue. Please check your network connection and try again",
+    "notofication": {
+        "create": {
+            "success": "Notification created successfully",
+            "failure": "",
+            "requiredAlert": "Please fill all the mandatory fields"
+        },
+        "update": {
+            "success": "Notification updated successfully",
+            "failure": "",
+            "requiredAlert": "Please fill all the mandatory fields"
+        },
+        "delete": {
+            "success": "Notification deleted successfully",
+            "failure": "Notification delete failed",
+            "alert": "Are you sure want to delete a Notification?"
+        },
+        "sender": {
+            "create": {
+                "success": "Notification sender created successfully",
+                "failure": "",
+                "requiredAlert": "Please fill all the mandatory fields"
+            },
+            "update": {
+                "success": "Notification sender updated successfully",
+                "failure": "",
+                "requiredAlert": "Please fill all the mandatory fields"
+            },
+            "delete": {
+                "success": "Notification sender deleted successfully",
+                "failure": "Notification sender delete failed",
+                "alert": "Are you sure want to delete a Notification sender?"
+            }
+        }
+    },
+    "graphicsImageUpload": {
+        "imgefileName": "please upload the file with correct file format and correct extension refer below Formats Supported",
+        "imgeformatExtenstion": "Please upload the correct format file",
+        "imageUpload": "Image file uploaded successfully",
+        "imageDelete": "Image file deleted successfully",
+        "piiNumber": "Pii name missing,please check pii name",
+        "formattedName": "Error getting formatted name for image upload",
+        "deleteImage": "Are you sure want to delete Image ?",
+        "deleteAllImage": "Are you sure want to delete all the selected images?",
+        "isreplaceImage": "Image already exist.Do you want replace the image?",
+        "imagePathValid": "Upload file path D: or E:",
+        "isClaim": "Are you sure you want to retrigger?",
+        "ImageValidation": "Are you sure want to proceed with graphic images?"
+    },
+    "newItracks": {
+        "feedback": {
+            "appreciateFeedback": "Feedback booked sucessfully! This feedback will help us improve our products and services. Your Feedback ID : ",
+            "modifyCCASuccess": "Success: Your CC has been modified",
+            "modifyCCAError": "Alert: Unable to Modify CC!",
+            "AlertMessage": "Alert: ",
+            "fileExists": " File(s) already exists.",
+            "fileUploadError": "Alert: Unable to upload files",
+            "fieldMissing": "Alert: Please fill in all required fields before proceeding.",
+            "bookFeedbackSuccess": "That's awesome! Keep up the good work. Your Feedback ID : ",
+            "bookFeedbackError": "Alert: Unable to book feedback!",
+            "bookAppreciationError": "Alert: Unable to book Appreciation!",
+            "accessDenied": "Access Denied",
+            "fileSuccess": "File Uploaded Successfully"
+        },
+        "search": {
+            "jobIdEmpty": "Alert: Job ID should not be empty!",
+            "noMatch": "Alert:  Multiple records have been detected for this Job ID. Kindly click on 'Advanced Search' to perform a more specific search.",
+            "noData": "Alert: No data found"
+        },
+        "customer": {
+            "customerAddSuccess": "Customer has been added successfully",
+            "customerCopySuccess": "Customer info has been updated successfully",
+            "customerUpdateSuccess": "Customer info has been updated successfully",
+            "customerDeleteSuccess": "Stage has been removed successfully",
+            "customerAddError": " Customer addition has been failed. Please try again",
+            "customerCopyError": "Customer info you entered already exists",
+            "customerUpdateError": "Customer update has been failed. Please try again",
+            "customerDeleteError": "Customer deletion has been failed. Please try again",
+            "stageCreationSuccess": "Stage has been added successfully",
+            "stageCreationFailed": "Stage addition has been failed. Please try again",
+            "customerNameUpdateSuccess": "Customer Name has been updated successfully",
+            "customerNameUpdateFailure": "Customer Name Update has been failed. Please try again"
+        },
+        "norms": {
+            "activityAddSuccess": "Activity details has been added successfully",
+            "activityUpdateSuccess": "Activity details has been updated successfully",
+            "normsDeleteSuccess": "Norms value has been deleted successfully",
+            "activityAddError": "Activity addition has been failed. Please try again",
+            "activityUpdateError": "Activity update has been failed. Please try again",
+            "normsDeleteError": "Norms deletion has been failed. Please try again",
+            "normsDeleteActionError": "Can't able to delete this entry as similar entry has been deleted earlier. Please contact system administrator",
+            "normsCopySuccess": "Norms value has been updated successfully",
+            "normsCopyError": "Failed to copy norms value. Please try again",
+            "activityCopySuccess": "Activity has been successfully copied",
+            "activityCopyError": "Activity copy has been failed. Please try again"
+        },
+        "indexD7Analysis": {
+            "severityRemoveSuccess": "Success: Option removed successfully",
+            "severitySaveSuccess": "Great news! Your input has been successfully saved!",
+            "chargeBackAddSuccess": "Success: ChargeBack Added!",
+            "chargebackAmountExceeded": "Oops! You've gone overboard with the chargebacks - our limit couldn't handle your enthusiasm! ",
+            "complaintCloseSuccess": "Hooray! You've successfully sealed the Feedback's fate - it's now officially closed for business!",
+            "complaintCloseError": "Feedback Closure Failed. Please Try again!",
+            "accessDenied": "Access Denied",
+            "d5Status": "Attention: D6 Feedback Not Required For Feedback ID ",
+            "chargebacknotSave": "You are not allowed to add Chargeback before adding the Responsible Employee!",
+            "D7Alert": "Attention: There is an unclosed date; kindly verify and try again.",
+            "DuaccessAlert": "Alert: Access Restricted for Editing",
+            "D2Alert": "D1 should be completed before proceeding to D2",
+            "D3Alert": "D2 should be completed before proceeding to  D3",
+            "Sevirity": "D3 should be completed before processing Severity",
+            "D4Alert1": "D3 should be completed before proceeding to D4",
+            "D4Alert2": "Severity should be completed before proceeding to D4",
+            "D5Alert": "D4 should be completed before proceeding to D5",
+            "ChargeBack": "D4 should be completed before proceeding to Chargeback",
+            "D6AAlert": "D5 should be completed before proceeding to D6A",
+            "D6BAlert": "D5 should be completed before proceeding to D6B"
+        },
+        "7D": {
+            "d1TeamSaveSuccess": "Great news! Your input has been successfully saved!",
+            "d1MaxCountError": "Team Size Alert: Limit of 5 Members",
+            "d1ChampionError": "Alert: Team Champion Cannot Be Removed",
+            "d1TeamSaveError": "Something went wrong, please try again!",
+            "d2SaveSuccess": "Great news! Your input has been successfully saved!",
+            "d2AlreadyExistsError": "Given combination already recorded",
+            "d2CountError": "Limit: You can select up to 10 error categories.",
+            "d2SaveError": "Alert: Unable to Save!",
+            "d2MinCountError": "Alert: Please select at least one error category to continue.",
+            "d3SaveSuccess": "Great news! Your input has been successfully saved!",
+            "whydataAd": "Your input has been successfully saved!",
+            "d3SaveError": "Something went wrong, please try again!",
+            "duMappingSuccess": "Success: The DU is linked to this feedback",
+            "duUnMappingSuccess": "Success: DU unmapped from feedback! That DU is now free from this feedback ",
+            "duAlreadyExistsError": "Alert: Data already exists",
+            "duMappingError": "Alert: DU not mapped!",
+            "duMinCountError": "Alert: Please select at least one entry to continue.",
+            "duDelCatchError": "Something went wrong, please try again!",
+            "whyDataSaveSuccess": "Employee data successfully added",
+            "mustEmpData": "Alert: Please select an Employee to proceed further.",
+            "d4aEditUpdateSuccess": "Your update was completed successfully!",
+            "whyDataAddSuccess": "Your input has been successfully saved!",
+            "whyEmpDataFailError": "Alert: At least one entry is required to continue",
+            "empSuccess": "Root cause added successfully",
+            "whyDataCountError": "Limit: You can add only 5 Why's",
+            "whylimiterror": "Alert: At least one entry is required to continue",
+            "whyDataDescMustError": "Alert: Please add a description!",
+            "causeDescMustError": "Alert: Please add a description!",
+            "d4aCauseDescValidationError": "Alert: Description should not exceed 500 characters",
+            "d4aDescValidation": "Alert: Description should not exceed 500 characters",
+            "d4aFailError": "Alert: We couldn't complete D4. Please attempt it again.",
+            "d5SaveSuccess": "Great news! Your input has been successfully saved!",
+            "d5UpdateSuccess": "Your update was completed successfully!",
+            "d5DeleteSuccess": "Your update was deleted successfully!",
+            "d5SaveError": "Something went wrong, please try again!",
+            "d5AlreadyExistsError": "Alert: The provided information already exists in our records",
+            "d5MinCountError": "Alert: At least one entry is required to continue.",
+            "d5DelFailError": "Alert: Deletion unsuccessful. Please try again",
+            "d5FeedbackError": "Alert: Feedback should be minimum of 5 characters",
+            "d6AddSuccess": "Great news! Your input has been successfully saved!",
+            "d6UpdateSuccess": "Great news! Your input has been successfully saved!",
+            "d6UpdateFailError": "Something went wrong, please try again!",
+            "d7SaveSuccess": "Great news! Your input has been successfully saved!",
+            "d7SaveFailError": "Something went wrong, please try again!",
+            "d2AddButtonAlert": "Alert: Click Add button to Add Error Category!",
+            "subdunotpresentAlert": "Alert: Sub DU not mapped. Please reach out to the iWMS support team!",
+            "MISMap": "This Mapped DU is Accounted for MIS",
+            "MISnotMap": "The Mapped DU is Not Accounted for MIS",
+            "sevError": "At least one Severity is required to be mapped to this feedback",
+            "ToDuDeleteAlert": "Alert: To DU cannot be deleted",
+            "D2EmptyAlert": "Alert: Your input has empty Value(s)! Please check again!",
+            "DUMapped": "Alert: Du cannot be Deleted! DU already mapped for the Lineitem in D2!"
+        },
+        "viewPage": {
+            "DifferenceCount": "Difference between two entered date is ",
+            "DifferenceError": ". So, the date difference should not be greater than 90 days",
+            "DateDifference": "Alert: Please note that the MIS report screen can only accommodate details for a single month at a time."
+        }
+    },
+    "MasterScreenMapping": {
+        "masterScreenMappingSuccess": "Menu Data Updated Successfully",
+        "masterScreenMappingError": "Master Screen Mapping has been failed. Please try again",
+        "UserRoleSelect": "Please select at least one Role",
+        "AdminDUandRoleSelect": "Please select at least one DU and Role"
+    },
+    "iAspire": {
+        "QPRTemplateNotMapped": "Attention! We haven't seen this band and designation combo before in our QPR templates. Please navigate to the QPR Template screen and map the combination in order to proceed further",
+        "KRAQPRSuccess": "Successfully updated",
+        "RORApproved": "Successfully Approved the Request",
+        "RORRejected": "Successfully Rejected the Request",
+        "emptReason": "Reason should not be empty",
+        "overallCommentMandatory": "Overall Comments should not be empty",
+        "TemplateNotMapped": "Template not mapped! Please map Template before proceeding!",
+        "AppraisalNotMapped": "Appraisal Type is not mapped! Please map Appraisal Type before proceeding!",
+        "noGoalsDefined": "Failed to copy, Goals are not defined for last quarter",
+        "fileUpload": "File Uploaded successfully",
+        "failFileUpload": "File Upload Failed",
+        "fileDelete": "File Deleted successfully",
+        "failFileDelete": "File Delete Failed",
+        "goalEmptRowVal": "Enter the details in incomplete row",
+        "goalSaveMsg": "Goals Saved Successfully",
+        "goalSubmitMsg": "Goals Submitted Successfully",
+        "reOpenReqMsg": "Reopen Request Submitted Successfully",
+        "RatingNotMapped": "Score and Rating not mapped! Please Contact HR for map Score and Rating!",
+        "TemplateNotMappedGroup": "Template not mapped for the Below Employees! Please map Template before proceeding!",
+        "processFailed": "Process failed. Please contact Admin.",
+        "FileDownloadSuccess": "File downloaded successfully",
+        "holdFailure": "Appraisal Process Not Yet Initiated: Unable to Hold Appraisal",
+        "noteFailure": "Appraisal Process Not Yet Initiated: Unable to Note",
+        "holdCompleted": "Appraisal Completed: Unable to Hold Appraisal",
+        "pbcheck": "Unable to select: Status is not Eligible",
+        "DojNull": "Date of Joining is Empty!",
+        "DojNullEmp": "Date of Joining is Empty for the below Employees ",
+        "L1Missing": "L1 Manager not mapped, Please contact HR!",
+        "L2Missing": "L2 Manager not mapped, Please contact HR!",
+        "DUHMissing": "DU Head not mapped, Please contact HR!",
+        "FUHMissing": "Functional Head not mapped, Please contact HR!",
+        "RepoHierDataNotChangeWarning": "No data has been changed!",
+        "RepoHierSaveSuccess": "DU Head / Functional Head Successfully Saved!",
+        "DUHFUHMandatory": "DU Head and Functional Head are Mandatory fields!",
+        "UserDUHFUHSame": "User, DU Head and Functional Head Should not be same person!",
+        "goalGalaxyKRA": {
+            "weightAgeLimitError": "The Weightage must be set to 100 before submiting your goal, However you can save this version as Draft. "
+        },
+        "goalReviewKRA": {
+            "goalSubmitedS": "Goal Approved Succesfully.",
+            "goalRejectedS": "Goal Rejected Succesfully.",
+            "goalProcessFailed": "Unable to Process Request. Please Try Again Later."
+        },
+        "goalGalaxyKRATable": {
+            "processFailed": "Process failed. Please contact Admin.",
+            "FiledownloadSuccess": "File downloaded successfully"
+        },
+        "selfScore": {
+            "draftScoreS": "SelfScore Drafted Succesfully.",
+            "scoreS": "SelfScore Submited Succesfully.",
+            "scoreF": "Unable to update SelfScore."
+        },
+        "scoreReview": {
+            "scoreSubmitedS": "Score Submited Succesfully.",
+            "scoreRejectedS": "Score Rejected Succesfully.",
+            "scoreProcessFailed": "Unable to update Score. Please Try Again Later.",
+            "AddRemarksMandatory": "Additional Remarks should not be empty!",
+            "AddScoreMandatory": "Additional Score should not be empty!",
+            "ReviewerScoreNotBeEmpty": "Reviewer score must not be empty!",
+            "OverallScoreLimit": "Overall Score Should not exceed 150!"
+        },
+        "appraisalSetUp": {
+            "itemNotFound": "Item not found in tableData.",
+            "editAlert": "OOPS! Editing of another item is already begun.",
+            "updSuccess": "Updated Successfully.",
+            "updFaliure": "Update Failed."
+        }
+    },
+    "cupElements": {
+        "noSeriesMaster": "Series Master Not found",
+        "mailExistTo": "Email address already exists in To recipient(s)",
+        "mailExistCc": "Email address already exists in Cc recipient(s)",
+        "mailExist": "Email address already exists ",
+        "invalidMail": "Invalid email address",
+        "mailSent": "Mail Intro Sent successfully",
+        "mailFailed": "Failed to send the Mail Intro",
+        "FiledownloadSuccess": "File downloaded successfully",
+        "FiledownloadFailed": "Error downloading file",
+        "SuccessQueryRes": "Sumbitted the query response successfully",
+        "failedQueryRes": "Unable to sumbit the query response",
+        "QueryRejectSuccess": "Query Rejected Successfully",
+        "QueryRejectFailed": "Unable to reject Query",
+        "greetingEmpty": "Greetings should not be empty.",
+        "responseEmpty": "Response Should not be empty.",
+        "query500": "Query Should not be more than 500 character.",
+        "response500": "Response Should not be more than 500 character."
+    },
+    "salesPMO": {
+        "addNewCustomer": {
+            "createSuccess": "Customer added successfully",
+            "createError": "Customer addion failed! please try agian.",
+            "editSuccess": "Customer data Modified Succesfully!",
+            "editFailed": "Customer data Modification Failed! Please try again."
+        },
+        "customerMapping": {
+            "reassignSuccess": "Kam/CM reassign request is Raised.",
+            "reassignFailed": "Kam/CM reassign request is Failed.",
+            "isNotEligible": "Selected Record is not Eligible for Reassign"
+        },
+        "changeRequest": {
+            "approveSuccess": "Change request is approved successfully.",
+            "approveFailed": "Change request approval is failed.",
+            "rejectionSuccess": "Change request rejected successfully.",
+            "rejectionFailed": "Change request rejection is failed."
+        },
+        "reports": {
+            "payloadError": "Please select all mandatory fields",
+            "auditModule": "Module not for this combination."
+        },
+        "journalRateEntry": {
+            "rateEntrySuccessful": "Rate Entry is Succesfully Added",
+            "rateEntryFailed": "Rate Entry Addition is Failed",
+            "rateEntryFieldErr": "Please Fill all the fields."
+        },
+        "rateEntry": {
+            "noDuFound": "Login user is not mapped with any DU.",
+            "noCustomerFound": "The Selected DU does not have any Customers now.",
+            "noVerticalFound": "The Selected Customer does not have any Vericals now.",
+            "noTableDataFound": "The Selected Combination does not have any Entry now.",
+            "rateEntryLimit": "Unable to add Rate Entry more than 5 rows.",
+            "rateEntryDuplicate": "Unable to Add Duplicate Combination in Rate Entry.",
+            "rateEntrySuccess": "Rate Entry for this Job is Succesfully Recorded.",
+            "rateEntryAddFailed": "Unable to add Rate Entry for this Job. Please try again Later.",
+            "rateEntryError": "Invalid Data in the Rate Entry.",
+            "payloadErrCurr": "Please Select Currency to Save Rate Entry.",
+            "deleteLimit": "Rate Entry must be atleast one.",
+            "invalidRateFormat": "Invalid Rate format. Please enter Valid rate.",
+            "noExceldata": "No Records to download as Excel.",
+            "noFilterdata": "No Records to Select Filter.",
+            "noActualsData": "No Actuals Found for this Workoreder.",
+            "noAdjData": "No Adjustments Found for this Workoreder.",
+            "adjSaveSuccess": "Adjustments for this Job is Succesfully Recorded.",
+            "adjDuplicateSuccess": "Adjustments already done for this combination. Please delete old one to add new.",
+            "adjSavefailed": "Unable to Save Adjustments for this Job Entry. ",
+            "adjDeleteSuccess": "Adjustments for this Job is Succesfully Removed.",
+            "adjDeletefailed": "Unable to Remove Adjustments for this Job Entry. ",
+            "adjPayloadErr": "Please Enter Valid data."
+        },
+        "master": {
+            "segment": {
+                "createSegmentSuccess": "Segment  Created Successfully",
+                "createSegmentFailure": "Segment Create Failed",
+                "updateSegmentSuccess": "Segment  Updated Successfully",
+                "updateSegmentFailure": "Segment Update Failed",
+                "duplicateSegmentName": "Segment Already Exists",
+                "duplicateSegmentFailure": "Segment checked Failed",
+                "deleteSegmentSuccess": "Segment Deleted Successfully",
+                "deleteSegmentFailure": "Segment Delete Failed. Already in Use",
+                "deleteSegmentAlert": "Are you sure you want to delete the Segment?"
+            },
+            "vertical": {
+                "createVerticalSuccess": "Vertical  Created Successfully",
+                "createVerticalFailure": "Vertical Create Failed",
+                "updateVerticalSuccess": "Vertical  Updated Successfully",
+                "updateVerticalFailure": "Vertical Update Failed",
+                "duplicateVerticalName": "Vertical Already Exists",
+                "duplicateVerticalFailure": "Vertical checked Failed",
+                "deleteVerticalSuccess": "Vertical Deleted Successfully",
+                "deleteVerticalFailure": "Vertical Delete Failed. Already in Use",
+                "deleteVerticalAlert": "Are you sure you want to delete the Vertical?"
+            },
+            "service": {
+                "createServiceSuccess": "Service  Created Successfully",
+                "createServiceFailure": "Service Create Failed",
+                "updateServiceSuccess": "Service  Updated Successfully",
+                "updateServiceFailure": "Service Update Failed",
+                "duplicateServiceName": "Service Already Exists",
+                "duplicateServiceFailure": "Service checked Failed",
+                "deleteServiceSuccess": "Service Deleted Successfully",
+                "deleteServiceFailure": "Service Delete Failed. Already in Use",
+                "deleteServiceAlert": "Are you sure you want to delete the Service?"
+            }
+        },
+        "planupload": {
+            "fileEmptyValue": "File has some empty values! Check and Reupload!",
+            "fileIssue": "File has some Issues! Unable to Upload! Check and Reupload!",
+            "emptyFile": "Please select file before Upload!",
+            "fileExtensionIssue": "File Extension must be .xlsx or .xls!",
+            "uploadSuccess": " plan Uploaded Successfully!"
+        },
+        "masterScreen": {
+            "updated": " Succesfully Updated!",
+            "inserted": " Succesfully Inserted!",
+            "deleted": " Succesfully Deleted!",
+            "failed": "Unable to Process Request. Please Try Again Later.",
+            "mandatory": " Name is Mandatory!",
+            "alreadyExist": " Name is Already Exist!",
+            "mappingExist": "Mapping Combination already Exist!",
+            "mappingMandatory": " is Mandatory!"
+        },
+        "lockUnlock": {
+            "uploadedSuccess": "WorkOrder Lock/Unlock Updated Succesfully!",
+            "confirmationAlert": "Are you sure you want to proceed with locking/unlocking the job?",
+            "reasonMandatory": "Lock/Unlock Reason is Mandatory!"
+        },
+        "rateConfig": {
+            "invalidTableOI": "Please fill all the rows before saving.",
+            "exsistingComb": "The selected Combination already exists.",
+            "stepperCompleted": "Succesfully Completed the septs.",
+            "AppendixTemplateErr": "Please Select Values to Proceed Further",
+            "invoiceCompleted": "Sucessfully Saved Invoice Description.",
+            "oiurCompleted": "Sucessfully Saved OI & UBR Stage."
+        },
+        "rfi": {
+            "invoiceManditoryErr": "Please fill all the Mandatory fields in Invoice Detaiis.",
+            "priceManditoryErr": "Please fill all the fields in Price Detaiis.",
+            "priceDetailsEmpty": "Please check atleast one item From Price Details to Raise RFI.",
+            "rfiCreateSuccess": "Sucessfully Raised RFI and Ready for Approval.",
+            "rfiDraftSuccess": "RFI is Sucessfully saved as Draft.",
+            "rfiCreateError": "Unable to Raise RFI.",
+            "rfiNoRateEntry": "Selected Item has no Rate Entry Created.Please Add RateEntry to proceed further.",
+            "rfiApproveSuccess": "RFI Approved Sucessfully and Queued for OODO.",
+            "rfiRejectSuccess": "RFI Rejected Sucessfully.",
+            "rfiApproveFailed": "Unable to Approve RFI.",
+            "rfiRejectFailed": "Unable to Reject RFI.",
+            "attachmentDelSuccess": "Attachment Deleted Successfully.",
+            "attachmentDelFailed": "Attachment Deletion Failed.",
+            "duplicateAttachment": "Attachment Already Exists.",
+            "attachemtLimitExceeds": "Attachment Limit Exceeds."
+        },
+        "auditReport": {
+            "noRecords": "No Records found. "
+        },
+        "pearson": {
+            "priceGrid": {
+                "effDatMandatory": "Effective From Date is Mandatory!",
+                "uploadSuccess": "File Uploaded Successfully"
+            },
+            "rateEntry": {
+                "invalidQuantityFormat": "Invalid Quantity format. Please enter Valid Quantity.",
+                "MaxLimitExceed": "Maximum limit exceeded",
+                "commentsMaxLimitalert": "You have exceeded the maximum character limit of 200!",
+                "IncomingStageNotExist": "Incoming analysis or Stage creation is not completed. Please complete to proceed"
+            }
+        } 
+    },
+    "DynamicWorkorder": {
+        "NoDataTab": "Sections not mapped for the given Combination!",
+        "NoDataInfo": "Info Details not mapped for the given Combination!",
+        "NoDataFields": "Fields not mapped for the given Combination!",
+        "noCheckList": "There is no checklist available",
+        "CombinationNotFound": "No Combination Found!"
+    },
+    "CustomerSetup": {
+        "AlreadyExist": "Given Combination (DU, Customer, Division, Vertical, Country) is Already Exist!",
+        "NoDataInfo": "Atleast one section need to be selected!",
+        "NoFieldsSelected": "Select Fields before Save!",
+        "deleteSuccess": "Successfully Deleted!",
+        "emptyWorkFlow": "Workflow List Should not be Empty!",
+        "updateWorkflow": "Workflow List Updated Succesfully!",
+        "workflowNotSaved": "Unable to Update Workflow!",
+        "userAddSuccess": "User Added Succesfully!",
+        "userUpdateSuccess": "User Updated Succesfully!",
+        "emailUpdate": "Added Mails Updated Succesfully!"
+    }
+}

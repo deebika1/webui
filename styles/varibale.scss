@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+$app-font: 'Poppins', sans-serif;
+$wms-app-primary: #3f52a3;
+$wms-app-secondary: #556ee6;
+
+$wms-app-header-tab-heigth: 50px;;
+$wms-app-header-tab-background: #6675a2;
+
+
+$app-primary: #000;
+$app-secondary: #4b4a4a;
+$app-font-title: normal normal normal 14px/19px Poppins;
+$app-font-bold: normal normal normal 14px/19px Poppins;
+
+$app-header-height: 50px;
+$app-header-width: 1474px;
+$app-header-background: #ffffff 0% 0% no-repeat padding-box;
+
+
+$app-sidebar-top: 60px;
+$app-sidebar-lg-width: 168px;
+$app-sidebar-sm-width: 71px;
+$app-sidebar-height: 835px; 
+$app-sidebar-background: #FFFFFF 0% 0% no-repeat padding-box;
+$app-sidebar-active:#FFFFFF;
+
+// $app-sidebar-active:#6675A2;
+
+
+
+/// loader scss variables
+$ph-bg:                   #fff !default;
+$ph-color:                #ced4da !default;
+$ph-border-radius:        2px !default;
+
+$ph-gutter:               30px !default;
+$ph-spacer:               15px !default;
+
+$ph-avatar-border-radius: 50% !default;
+
+$ph-animation-duration: .8s !default;

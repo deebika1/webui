@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" http-equiv="Cache-control" content="no-cache" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="WMS App" />
+  <title>WMS App</title>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.13.5/xlsx.full.min.js"></script>
+   <!-- https://material.io/resources/icons/?style=baseline -->
+   <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+   <!-- https://material.io/resources/icons/?style=outline -->
+   <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+  <style>
+    .notsupported-header-img {
+      width: 100%;
+      margin-top: 7px;
+      border-bottom: 1px solid #DFDFDF;
+    }
+
+    .notsupported-group-img {
+      margin-top: 7px;
+      margin-left: 67px;
+      width: 182px;
+      height: 57px;
+      background: transparent url('Group 1141.png') 0% 0% no-repeat padding-box;
+      opacity: 1;
+    }
+
+    .notsupported-poweredBy {
+      margin-top: -39px;
+      float: right;
+      margin-right: 230px;
+      width: 76px;
+      height: 19px;
+      text-align: center;
+      font: normal normal 600 14px/19px Poppins;
+      letter-spacing: 0px;
+      color: #001D3C;
+      opacity: 1;
+    }
+
+    .notsupported-integra-logo {
+      margin-top: -55px;
+      float: right;
+      margin-right: 80px;
+      width: 127px;
+      height: 53px;
+      background: transparent url('integra-logo_16072018 (1).png') 0% 0% no-repeat padding-box;
+      opacity: 1;
+    }
+
+    .notsupported-vl {
+      margin-top: -55px;
+      float: right;
+      margin-right: 90px;
+      width: 127px;
+      height: 53px;
+      border-left: 1px solid black;
+      height: 50px;
+    }
+
+    .notsupported-main-container {
+      margin-top: 50px;
+      height: calc(100vh - 190px) !important;
+    }
+
+    .notsupported-browserComp {
+      text-align: center;
+      font: normal normal bold 40px/25px Poppins;
+      letter-spacing: 0px;
+      color: #001D3C;
+      text-transform: uppercase;
+      opacity: 1;
+    }
+
+    .notsupported-body-content {
+      margin-top: 30px;
+      text-align: center;
+      font: normal normal 600 20px/25px Poppins;
+      letter-spacing: 0px;
+      color: #6675A2;
+      opacity: 1;
+    }
+
+    .notsupported-image {
+      margin-top: 30px;
+      text-align: center;
+      margin-left: calc(100vh - 250px) !important;
+      ;
+      width: 478px;
+      height: 218px;
+      background: transparent url('all-logos.png') 0% 0% no-repeat padding-box;
+      opacity: 1;
+    }
+
+    .notsupported-footer {
+      border-top: 1px solid #DFDFDF !important;
+      height: 0px !important;
+    }
+
+    .notsupported-footer-content {
+      margin-top: 15px;
+      text-align: center;
+      font: normal normal 600 20px/27px Poppins;
+      letter-spacing: 0px;
+      color: #6675A2;
+      opacity: 1;
+    }
+  </style>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <div id="notsupported" style="display: none;">
+    <div class="notsupported-login-container">
+      <div class="notsupported-header-img">
+        <div class="notsupported-group-img"></div>
+        <div class="notsupported-poweredBy">Powered By</div>
+        <div class="notsupported-vl"></div>
+        <div class="notsupported-integra-logo"></div>
+      </div>
+    </div>
+    <div class="notsupported-main-container">
+      <div class="notsupported-browserComp">Browser Compatibility</div>
+      <div class="notsupported-body-content">
+        <div>This application is designed to work best with the following browser types.</div>
+        <div>Please access using any of the
+          browsers as indicated below.</div>
+        <div class="notsupported-image"></div>
+        <div>Chrome | Edge on Windows | Safari on Mac</div>
+      </div>
+    </div>
+    <div class="notsupported-footer"></div>
+    <div class="notsupported-footer-content">© 2021 | Integra Software Services Pvt. Ltd.</div>
+  </div>
+</body>
+<script type="text/javascript">
+  var ua = window.navigator.userAgent
+  var msie = ua.indexOf("Trident/");
+  if (msie > 0) {
+    document.getElementById('notsupported').style.display = "inline"
+    document.getElementById('root').style.display = "none"
+  }
+</script>
+</html>

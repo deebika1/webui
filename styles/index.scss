@@ -1,0 +1,22 @@
+
+html {
+    height: 100vh;
+
+    body {
+        height: inherit;
+        margin: 0;
+        overflow: hidden;
+        #root {
+            height: inherit;
+
+            .wms-custom-uri {
+                display: none;
+            }
+
+            .wms-download {
+                display: none;
+            }
+        }
+        
+    }
+}
